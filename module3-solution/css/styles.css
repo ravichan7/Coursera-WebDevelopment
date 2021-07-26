@@ -1,1 +1,108 @@
+body {
+font-size:  16px; /*std font size*/
+color : #000;  
+background-color:  dimgrey;  
+font-family: 'Oxygen', sans-serif;
 
+}
+
+.container-fluid {
+background-color: lightgrey; /*yelllow*/
+border: 0; /*no border*/
+}
+.row{
+	margin: 0;
+}
+
+.navbar-brand {
+	margin-bottom: 15px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+ /*remove underline from name*/
+	text-decoration: none;
+}
+
+.navbar-brand h1 { /*Brand Name*/
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: : 1px 1px 1px #222; /*do research*/
+	margin-top: 0;
+	margin-left: 15px;
+	margin-bottom: 0px;
+
+}
+
+#nav-list{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list a {
+	background-color: seashell;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align:  center;
+}
+.navbar-nav>li{
+	border: 0.5px solid #000;
+}
+
+#menu-page-title {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.menu-item-details{
+	background-color: lightslategrey;	
+}
+
+.menu-item-details>div{
+	color: black;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-right: 0;
+	padding-left: 0;
+	padding-top: 15px ;
+	padding-bottom: 15px;
+	margin: 0;
+}
+.menu-item-details>p{
+	padding-bottom: 15px;	
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+/***************large device only ************************/
+@media (min-width: 1200px){
+
+}
+
+/***************medium device only ************************/
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+/***************Small device only ************************/
+@media (max-width: 767px) {
+
+.navbar-brand h1 { /*Brand Name*/
+	font-size: 1.7em;
+
+}
+#menu-page-title {
+	color: black;
+	font-size: 1.7em;	
+}
+.menu-item-details>div{
+
+	font-size: 1.3em;
+}
+
+.menu-item-details>p{
+	font-size: 1.2em;
+	}
+}
