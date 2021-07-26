@@ -1,13 +1,13 @@
 body {
 font-size:  16px; /*std font size*/
 color : #000;  
-background-color:  dimgrey;  
+background-color:  #F0F8FF;  
 font-family: 'Oxygen', sans-serif;
 
 }
 
 .container-fluid {
-background-color: lightgrey; /*yelllow*/
+background-color: #F0FFFF; 
 border: 0; /*no border*/
 }
 .row{
@@ -39,7 +39,7 @@ border: 0; /*no border*/
 	margin-bottom: 0;
 }
 #nav-list a {
-	background-color: seashell;
+	background-color: #FAEBD7;
 	font-size: 1.25em;
 	font-weight: bold;
 	text-align:  center;
